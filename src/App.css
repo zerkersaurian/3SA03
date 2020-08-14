@@ -63,6 +63,17 @@
  min-height: 0.5vh;
  background: #A9A9A9;
 }
+
+.active-text {
+ font-size: calc(5px + 2vmin);
+ min-height: 5vh;
+ color: #FE0000;
+ background:#E6E6FA; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
