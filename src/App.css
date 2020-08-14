@@ -40,7 +40,7 @@
 
 .activeCard {
  color: red;
- background: pink;
+ background: blue;
 }
 
 @keyframes App-logo-spin {
