@@ -29,6 +29,7 @@
 }
 
 .card {
+ background-color: white;
  display: inline-block;
  text-align: center;
  width: 3em;
@@ -50,11 +51,18 @@
 }
 
 .activeCard {
- color: red;
+ color: white;
  background: blue;
 }
 
+.bg {
+ background: #191970;
+}
 
+.border {
+ min-height: 0.5vh;
+ background: #A9A9A9;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
